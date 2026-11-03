@@ -2,16 +2,16 @@
 
 > **Curso:** ALGORITMO Y ESTRUCTURA DE DATOS BASADOS EN INTELIGENCIA ARTIFICIAL  
 > **Código:** 30710  
-> **Evaluación:** PA3  
+> **Evaluación:** PROCESO DE APRENDIZAJE 3 
 > **Equipo:** Equipo 6
 
 ## 1. Integrantes
 
 | **Integrante** | **Responsabilidad principal** | **Aporte realizado** |
 |---|---|---|
-| Geraldine Ana Paola Gómez Atanacio | Actividad 3 – Situaciones 1 y 2 | Desarrolló la selección y justificación de las estructuras pila y cola para las dos primeras situaciones, incluyendo su implementación en Java. |
+| Geraldine Ana Paola Gomez Atanacio | Actividad 3 – Situaciones 1 y 2 | Desarrolló la selección y justificación de las estructuras pila y cola para las dos primeras situaciones, incluyendo su implementación en Java. |
 | Luisanni Andreina Oviedo Woscichowski | Actividad 4 – Comparación de estructuras | Desarrolló la comparación entre las estructuras pila y cola y su demostración mediante Java. |
-| Milthom Wilbert Flórez Somcco | Actividad 1 – Pila LIFO | Responsable del desarrollo de los fundamentos, representación y operaciones de la estructura pila. |
+| Milthom Wilbert Florez Somcco | Actividad 1 – Pila LIFO | Responsable del desarrollo de los fundamentos, representación y operaciones de la estructura pila. |
 | Carlos César Jiménez Jáuregui | Actividad 3 – Situaciones 3 y 4 | Responsable del análisis y justificación de las estructuras de datos para las dos situaciones asignadas. |
 | Luis Cristofer Siñani Yauri | Actividad 2 – Cola FIFO | Responsable del desarrollo de los fundamentos, representación y operaciones de la estructura cola. |
 
@@ -102,9 +102,9 @@ Las evidencias se organizarán en la carpeta `evidencias` del repositorio.
 
 | **Integrante** | **Desarrollo** | **Pruebas** | **Documentación** | **Exposición** | **Evidencia de participación** |
 |---|---|---|---|---|---|
-| Geraldine Ana Paola Gómez Atanacio | Alta | Alta | Alta | Pendiente | Desarrollo de las situaciones 1 y 2 de la Actividad 3, implementación en Java y aporte al repositorio. |
+| Geraldine Ana Paola Gomez Atanacio | Alta | Alta | Alta | Pendiente | Desarrollo de las situaciones 1 y 2 de la Actividad 3, implementación en Java y aporte al repositorio. |
 | Luisanni Andreina Oviedo Woscichowski | Alta | Alta | Alta | Pendiente | Desarrollo de la comparación entre pila y cola y demostración en Java. |
-| Milthom Wilbert Flórez Somcco | Pendiente | Pendiente | Pendiente | Pendiente | Responsable del desarrollo de la Actividad 1: Pila LIFO. |
+| Milthom Wilbert Fl0rez Somcco | Pendiente | Pendiente | Pendiente | Pendiente | Responsable del desarrollo de la Actividad 1: Pila LIFO. |
 | Carlos César Jiménez Jáuregui | Pendiente | Pendiente | Pendiente | Pendiente | Responsable del desarrollo de las situaciones 3 y 4 de la Actividad 3. |
 | Luis Cristofer Siñani Yauri | Pendiente | Pendiente | Pendiente | Pendiente | Responsable del desarrollo de la Actividad 2: Cola FIFO. |
 
@@ -122,18 +122,17 @@ Las evidencias se organizarán en la carpeta `evidencias` del repositorio.
 
 ## 7. Conclusiones
 
-**Conclusión 1:** Las estructuras de datos pila y cola permiten organizar elementos de acuerdo con diferentes criterios de procesamiento. La pila utiliza el principio LIFO, mientras que la cola utiliza el principio FIFO.
+**Conclusión 1:**
 
-**Conclusión 2:** La estructura pila resulta adecuada para situaciones donde se necesita recuperar primero el último elemento ingresado, como en el registro de acciones que deben revertirse.
+**Conclusión 2:** 
 
-**Conclusión 3:** La estructura cola permite atender solicitudes respetando el orden de llegada, lo que facilita la organización de procesos donde se requiere una atención secuencial.
+**Conclusión 3:** 
 
-**Conclusión 4:** La comparación entre ambas estructuras permite reconocer sus diferencias en cuanto al funcionamiento, las operaciones principales y la forma de acceder a los elementos.
+**Conclusión 4:** 
 
-**Conclusión 5:** La aplicación de pilas y colas mediante algoritmos y programas en Java permite desarrollar soluciones acordes con las necesidades de cada situación y fortalecer los conocimientos sobre estructuras de datos.
+**Conclusión 5:** 
 
 ---
 
 **Última actualización:** 03/11/2026
-## Repositorio
-**PA3 – Estructuras de Datos**
+
