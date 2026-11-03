@@ -46,32 +46,28 @@ La cola conviene cuando lo importante es respetar el orden de llegada. Por ejemp
 Si las usamos al revés, el sistema falla: con una cola para deshacer se revertiría primero el cambio más antiguo, y con una pila para atender solicitudes se atendería primero al último que llegó, dejando esperando a los primeros.
 
 ## Demostración en Java
-El archivo `ComparacionPilaCola.java` sigue el mismo estilo del ejemplo de clase: una pila con `push`, `pop` y `mostrar`, y una cola con `encolar`, `desencolar` y `mostrar`. A las dos les metemos los mismos números (20, 40 y 60) para ver cuál sale primero.
+En la carpeta `PA3Actividad4` está el proyecto de NetBeans. El código (`src/pa3actividad4/PA3Actividad4.java`) sigue el estilo visto en clase: dentro de la clase principal están el `Nodo`, la `Pila` (apilar, desapilar y mostrar) y la `Cola` (encolar, desencolar y mostrar). A las dos les metemos los mismos datos (20, 40 y 60) para ver cuál sale primero.
 
-Para ejecutarlo:
-```
-javac ComparacionPilaCola.java
-java ComparacionPilaCola
-```
+Para ejecutarlo: abrir la carpeta `PA3Actividad4` en NetBeans (File > Open Project) y darle a Run.
 
 Resultado:
 ```
-Nodo apilado: 20
-Nodo apilado: 40
-Nodo apilado: 60
+Apilado: 20
+Apilado: 40
+Apilado: 60
 Pila (Tope -> Base):
-60 
-40 
-20 
+60
+40
+20
 Sale de la pila: 60
 
-Nodo encolado: 20
-Nodo encolado: 40
-Nodo encolado: 60
+Encolado: 20
+Encolado: 40
+Encolado: 60
 Cola (Frente -> Final):
-20 
-40 
-60 
+20
+40
+60
 Sale de la cola: 20
 ```
 
