@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" font-family="Arial, sans-serif">
+  <rect width="900" height="420" fill="#ffffff"/>
+  <text x="200" y="35" text-anchor="middle" font-size="22" font-weight="bold" fill="#2F5D8A">PILA (LIFO)</text>
+  <text x="200" y="60" text-anchor="middle" font-size="13" fill="#333">Último en entrar, primero en salir</text>
+  <polyline points="70,100 70,370 330,370 330,100" fill="none" stroke="#555" stroke-width="3"/>
+  <rect x="80" y="110" width="240" height="56" rx="4" fill="#FFE3B3" stroke="#D9822B" stroke-width="2"/>
+  <text x="200" y="143" text-anchor="middle" font-size="13">Cambio 4: corregir horario</text>
+  <rect x="80" y="174" width="240" height="56" rx="4" fill="#DCEBFA" stroke="#2F5D8A" stroke-width="2"/>
+  <text x="200" y="207" text-anchor="middle" font-size="13">Cambio 3: actualizar nota</text>
+  <rect x="80" y="238" width="240" height="56" rx="4" fill="#DCEBFA" stroke="#2F5D8A" stroke-width="2"/>
+  <text x="200" y="271" text-anchor="middle" font-size="13">Cambio 2: modificar curso</text>
+  <rect x="80" y="302" width="240" height="56" rx="4" fill="#DCEBFA" stroke="#2F5D8A" stroke-width="2"/>
+  <text x="200" y="335" text-anchor="middle" font-size="13">Cambio 1: registrar alumno</text>
+  <text x="340" y="143" font-size="14" font-weight="bold" fill="#D9822B">&#8592; TOPE</text>
+  <line x1="30" y1="150" x2="30" y2="95" stroke="#C0392B" stroke-width="2.5"/>
+  <polygon points="24,100 30,88 36,100" fill="#C0392B"/>
+  <text x="30" y="78" text-anchor="middle" font-size="11" fill="#C0392B">desapilar</text>
+  <line x1="50" y1="88" x2="50" y2="140" stroke="#2E8B57" stroke-width="2.5"/>
+  <polygon points="44,135 50,147 56,135" fill="#2E8B57"/>
+  <text x="44" y="165" text-anchor="middle" font-size="11" fill="#2E8B57">apilar</text>
+  <text x="200" y="400" text-anchor="middle" font-size="12" font-style="italic" fill="#444">Se entra y se sale por el mismo extremo (el tope)</text>
+
+  <text x="660" y="35" text-anchor="middle" font-size="22" font-weight="bold" fill="#2F5D8A">COLA (FIFO)</text>
+  <text x="660" y="60" text-anchor="middle" font-size="13" fill="#333">Primero en entrar, primero en salir</text>
+  <rect x="500" y="190" width="80" height="64" rx="4" fill="#FFE3B3" stroke="#D9822B" stroke-width="2"/>
+  <text x="540" y="218" text-anchor="middle" font-size="13">S001</text>
+  <text x="540" y="236" text-anchor="middle" font-size="11">Constancia</text>
+  <rect x="590" y="190" width="80" height="64" rx="4" fill="#DCEBFA" stroke="#2F5D8A" stroke-width="2"/>
+  <text x="630" y="218" text-anchor="middle" font-size="13">S002</text>
+  <text x="630" y="236" text-anchor="middle" font-size="11">Certificado</text>
+  <rect x="680" y="190" width="80" height="64" rx="4" fill="#DCEBFA" stroke="#2F5D8A" stroke-width="2"/>
+  <text x="720" y="218" text-anchor="middle" font-size="13">S003</text>
+  <text x="720" y="236" text-anchor="middle" font-size="11">Matrícula</text>
+  <rect x="770" y="190" width="80" height="64" rx="4" fill="#DCEBFA" stroke="#2F5D8A" stroke-width="2"/>
+  <text x="810" y="218" text-anchor="middle" font-size="13">S004</text>
+  <text x="810" y="236" text-anchor="middle" font-size="11">Notas</text>
+  <text x="540" y="282" text-anchor="middle" font-size="14" font-weight="bold" fill="#D9822B">FRENTE</text>
+  <text x="810" y="282" text-anchor="middle" font-size="14" font-weight="bold" fill="#2F5D8A">FINAL</text>
+  <line x1="498" y1="222" x2="450" y2="222" stroke="#C0392B" stroke-width="2.5"/>
+  <polygon points="455,216 443,222 455,228" fill="#C0392B"/>
+  <text x="465" y="180" text-anchor="middle" font-size="11" fill="#C0392B">desencolar</text>
+  <line x1="895" y1="222" x2="860" y2="222" stroke="#2E8B57" stroke-width="2.5"/>
+  <polygon points="865,216 853,222 865,228" fill="#2E8B57"/>
+  <text x="872" y="180" text-anchor="middle" font-size="11" fill="#2E8B57">encolar</text>
+  <text x="660" y="340" text-anchor="middle" font-size="12" font-style="italic" fill="#444">Se entra por el final y se sale por el frente</text>
+</svg>

@@ -1,0 +1,17 @@
+Nodo apilado: 20
+Nodo apilado: 40
+Nodo apilado: 60
+Pila (Tope -> Base):
+60 
+40 
+20 
+Sale de la pila: 60
+
+Nodo encolado: 20
+Nodo encolado: 40
+Nodo encolado: 60
+Cola (Frente -> Final):
+20 
+40 
+60 
+Sale de la cola: 20
