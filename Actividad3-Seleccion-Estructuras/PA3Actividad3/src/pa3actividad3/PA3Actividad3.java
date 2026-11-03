@@ -21,7 +21,7 @@ public class PA3Actividad3 {
         }
     }
 
-    // PILA (LIFO): para revertir acciones recientes
+    // PILA (LIFO)
     static class Pila {
         Nodo tope;
 
@@ -29,6 +29,7 @@ public class PA3Actividad3 {
             Nodo nuevo = new Nodo(accion);
             nuevo.siguiente = tope;
             tope = nuevo;
+
             System.out.println("Accion registrada: " + accion);
         }
 
@@ -39,6 +40,16 @@ public class PA3Actividad3 {
             }
 
             System.out.println("Accion revertida: " + tope.dato);
+            tope = tope.siguiente;
+        }
+
+        public void procesarAccion() {
+            if (tope == null) {
+                System.out.println("No hay acciones pendientes.");
+                return;
+            }
+
+            System.out.println("Accion procesada: " + tope.dato);
             tope = tope.siguiente;
         }
 
@@ -53,7 +64,7 @@ public class PA3Actividad3 {
         }
     }
 
-    // COLA (FIFO): para atender solicitudes por orden de llegada
+    // COLA (FIFO)
     static class Cola {
         Nodo frente;
         Nodo fin;
@@ -71,6 +82,20 @@ public class PA3Actividad3 {
             System.out.println("Solicitud recibida: " + solicitud);
         }
 
+        public void registrarTramite(String tramite) {
+            Nodo nuevo = new Nodo(tramite);
+
+            if (fin == null) {
+                frente = nuevo;
+                fin = nuevo;
+            } else {
+                fin.siguiente = nuevo;
+                fin = nuevo;
+            }
+
+            System.out.println("Tramite recibido: " + tramite);
+        }
+
         public void atenderSolicitud() {
             if (frente == null) {
                 System.out.println("No hay solicitudes pendientes.");
@@ -85,9 +110,33 @@ public class PA3Actividad3 {
             }
         }
 
-        public void mostrar() {
+        public void atenderTramite() {
+            if (frente == null) {
+                System.out.println("No hay tramites pendientes.");
+                return;
+            }
+
+            System.out.println("Tramite atendido: " + frente.dato);
+            frente = frente.siguiente;
+
+            if (frente == null) {
+                fin = null;
+            }
+        }
+
+        public void mostrarSolicitudes() {
             Nodo actual = frente;
             System.out.println("Solicitudes pendientes (Frente -> Final):");
+
+            while (actual != null) {
+                System.out.println(actual.dato);
+                actual = actual.siguiente;
+            }
+        }
+
+        public void mostrarTramites() {
+            Nodo actual = frente;
+            System.out.println("Tramites pendientes (Frente -> Final):");
 
             while (actual != null) {
                 System.out.println(actual.dato);
@@ -101,27 +150,63 @@ public class PA3Actividad3 {
         // SITUACION 1: Revertir acciones recientes
         System.out.println("=== SITUACION 1: PILA ===");
 
-        Pila pila = new Pila();
+        Pila pila1 = new Pila();
 
-        pila.registrarAccion("Modificar titulo");
-        pila.registrarAccion("Eliminar parrafo");
-        pila.registrarAccion("Cambiar formato");
+        pila1.registrarAccion("Modificar titulo");
+        pila1.registrarAccion("Eliminar parrafo");
+        pila1.registrarAccion("Cambiar formato");
 
-        pila.mostrar();
-        pila.deshacerAccion();
+        pila1.mostrar();
+        pila1.deshacerAccion();
 
         System.out.println();
 
         // SITUACION 2: Atender solicitudes en orden de llegada
         System.out.println("=== SITUACION 2: COLA ===");
 
-        Cola cola = new Cola();
+        Cola cola1 = new Cola();
 
-        cola.registrarSolicitud("Solicitud del estudiante 1");
-        cola.registrarSolicitud("Solicitud del estudiante 2");
-        cola.registrarSolicitud("Solicitud del estudiante 3");
+        cola1.registrarSolicitud("Solicitud del estudiante 1");
+        cola1.registrarSolicitud("Solicitud del estudiante 2");
+        cola1.registrarSolicitud("Solicitud del estudiante 3");
 
-        cola.mostrar();
-        cola.atenderSolicitud();
+        cola1.mostrarSolicitudes();
+        cola1.atenderSolicitud();
+
+        System.out.println();
+
+        // SITUACION 3: Ultimo ingresado, primero en procesarse
+        System.out.println("=== SITUACION 3: PILA LIFO - CARLOS ===");
+
+        Pila pila2 = new Pila();
+
+        pila2.registrarAccion("Registrar matricula");
+        pila2.registrarAccion("Modificar curso");
+        pila2.registrarAccion("Actualizar nota");
+
+        pila2.mostrar();
+
+        System.out.println("\nProcesando acciones en orden inverso:");
+        pila2.procesarAccion();
+        pila2.procesarAccion();
+        pila2.procesarAccion();
+
+        System.out.println();
+
+        // SITUACION 4: Tramites atendidos por orden de llegada
+        System.out.println("=== SITUACION 4: COLA FIFO - CARLOS ===");
+
+        Cola cola2 = new Cola();
+
+        cola2.registrarTramite("Solicitud de constancia");
+        cola2.registrarTramite("Solicitud de certificado");
+        cola2.registrarTramite("Solicitud de matricula");
+
+        cola2.mostrarTramites();
+
+        System.out.println("\nAtendiendo tramites por orden de llegada:");
+        cola2.atenderTramite();
+        cola2.atenderTramite();
+        cola2.atenderTramite();
     }
 }
