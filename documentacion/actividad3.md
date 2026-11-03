@@ -58,7 +58,7 @@ Al atender las solicitudes, el sistema procesa primero la **Solicitud del estudi
 
 La cola es la estructura adecuada porque respeta el orden de llegada de las solicitudes y permite organizar la atención de manera ordenada. Si se utilizara una pila, se atendería primero la última solicitud registrada, dejando esperando a quienes llegaron antes.
 
-## 3.3. Demostración en Java
+## Demostración en Java
 
 Para comprobar la selección de las estructuras, desarrollamos un programa en Java que representa las dos situaciones planteadas. En la primera, utilizamos una pila para registrar acciones y revertir la última acción realizada, demostrando el principio LIFO. En la segunda, utilizamos una cola para registrar solicitudes y atenderlas según su orden de llegada, aplicando el principio FIFO.
 
@@ -157,7 +157,7 @@ Al atender los trámites, el sistema procesa primero la **Solicitud de constanci
 
 La cola es la estructura adecuada porque respeta el orden de llegada de los trámites y permite organizar la atención de manera ordenada. Si se utilizara una pila, se atendería primero el último trámite registrado, dejando esperando a quienes llegaron antes.
 
-## 3.5. Comprobación en Java
+## Comprobación en Java
 
 Para comprobar las situaciones 3 y 4, desarrollamos un programa en Java utilizando pilas y colas implementadas mediante nodos enlazados. La ejecución se realizó en Apache NetBeans, dentro del proyecto `PA3Actividad3`.
 
