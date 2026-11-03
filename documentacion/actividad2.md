@@ -131,5 +131,5 @@ Fin Funcion
   2. **Predictibilidad:** Permite calcular de manera precisa los tiempos de espera aproximados en función de la posición actual del trámite en la cola.
   3. **Eficiencia Operativa:** Permite procesar de manera ordenada flujos continuos e intensivos de solicitudes sin pérdida de orden de llegada.
   
-### 5. Conclusión de la Actividad 2
+## 5. Conclusión de la Actividad 2
 La correcta implementación de la estructura de datos Cola bajo el principio FIFO (*First In, First Out*) es fundamental para resolver problemáticas de atención secuencial en unidades de servicios académicos[cite: 3, 4]. Al garantizar que las solicitudes se procesen estrictamente en el orden de llegada, se asegura un flujo transparente, predecible y equitativo para los estudiantes, optimizando los tiempos operativos y manteniendo la integridad lógica en el manejo de expedientes y trámites institucionales[cite: 3].
