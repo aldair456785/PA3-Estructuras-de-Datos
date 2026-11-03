@@ -55,6 +55,7 @@ public class PA3Actividad3 {
 
         public void mostrar() {
             Nodo actual = tope;
+
             System.out.println("Acciones recientes (Tope -> Base):");
 
             while (actual != null) {
@@ -79,6 +80,7 @@ public class PA3Actividad3 {
             }
 
             fin = nuevo;
+
             System.out.println("Solicitud recibida: " + solicitud);
         }
 
@@ -126,6 +128,7 @@ public class PA3Actividad3 {
 
         public void mostrarSolicitudes() {
             Nodo actual = frente;
+
             System.out.println("Solicitudes pendientes (Frente -> Final):");
 
             while (actual != null) {
@@ -136,6 +139,7 @@ public class PA3Actividad3 {
 
         public void mostrarTramites() {
             Nodo actual = frente;
+
             System.out.println("Tramites pendientes (Frente -> Final):");
 
             while (actual != null) {
