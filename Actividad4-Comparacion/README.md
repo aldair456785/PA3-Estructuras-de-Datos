@@ -47,6 +47,7 @@ Si las usamos al revés, el sistema falla: con una cola para deshacer se reverti
 
 ## Demostración en Java
 Resultado:
+Al programa insertamos los mismos datos (20, 40 y 60) en la pila y en la cola para ver cuál sale primero.
 ```
 Apilado: 20
 Apilado: 40
