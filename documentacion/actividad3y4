@@ -1,3 +1,68 @@
 # ACTIVIDAD 3:  PROCESAMIENTO  DONDE  EL ULTIMO INGRESADO DEBE ATENDERSE PRIMERO 
 
 ## 3.1. Situación 1: En esta situación se necesita procesar los elementos de manera que el último que ingresa sea el primero en atenderse.
+
+
+**Estructura seleccionada: Pila (LIFO).**
+Se utiliza una pila porque el principio LIFO (Last In, First Out) establece que el último elemento ingresado es el primero en salir. Esto permite procesar las acciones en orden inverso al de su registro.
+
+Por ejemplo, si se registran las acciones “Registrar matricula”, “Modificar curso” y “Actualizar nota”, el sistema procesará primero “Actualizar nota”, después “Modificar curso” y finalmente “Registrar matricula”.
+
+Esta estructura es adecuada porque cumple con el orden de procesamiento requerido en la situación planteada.
+
+# ACTIVIDAD 4: Flujo de espera de trámites pendientes 
+
+## 3.1. Situación 2:  En esta situación se necesita organizar los trámites pendientes para que sean atendidos respetando el orden en que se reciben.
+** Estructura seleccionada: Cola (FIFO).**
+Se utiliza una cola porque el principio FIFO (First In, First Out) establece que el primer elemento en ingresar es el primero en salir. Los trámites nuevos se agregan al final de la cola y la atención se realiza desde el frente.
+
+Por ejemplo, si se reciben una “Solicitud de constancia”, una “Solicitud de certificado” y una “Solicitud de matricula”, el sistema atenderá primero la solicitud de constancia, después la de certificado y finalmente la de matrícula.
+
+Esta estructura permite mantener el orden de llegada y organizar correctamente la atención de los trámites pendientes.
+
+### Resultado de la situación 3: Pila LIFO
+
+```text
+=== SITUACION 3: PILA LIFO - CARLOS ===
+Accion registrada: Registrar matricula
+Accion registrada: Modificar curso
+Accion registrada: Actualizar nota
+Acciones pendientes (Tope -> Base):
+Actualizar nota
+Modificar curso
+Registrar matricula
+
+Procesando acciones en orden inverso:
+Accion procesada: Actualizar nota
+Accion procesada: Modificar curso
+Accion procesada: Registrar matricula
+```
+
+### Resultado de la situación 4: Cola FIFO
+
+```text
+=== SITUACION 4: COLA FIFO - CARLOS ===
+Tramite recibido: Solicitud de constancia
+Tramite recibido: Solicitud de certificado
+Tramite recibido: Solicitud de matricula
+Tramites pendientes (Frente -> Final):
+Solicitud de constancia
+Solicitud de certificado
+Solicitud de matricula
+
+Atendiendo tramites por orden de llegada:
+Tramite atendido: Solicitud de constancia
+Tramite atendido: Solicitud de certificado
+Tramite atendido: Solicitud de matricula
+
+BUILD SUCCESS
+```
+
+### Interpretación de los resultados
+En la situación 3, la acción "Actualizar nota" fue la última en registrarse y la primera en procesarse, demostrando el principio LIFO.
+
+En la situación 4, la "Solicitud de constancia" fue el primer trámite registrado y el primero en atenderse, demostrando el principio FIFO.
+
+La ejecución finalizó correctamente, como muestra el mensaje `BUILD SUCCESS`.
+
+## 3.6. Conclusión
