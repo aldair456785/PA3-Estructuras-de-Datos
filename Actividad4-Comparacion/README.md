@@ -17,8 +17,6 @@ Para el caso, la pila sirve para guardar las acciones que se registran y poder d
 | **Aplicación en el caso** | Historial de cambios para deshacer acciones en el sistema académico. | Atención de solicitudes de constancias, certificados y trámites pendientes. |
 | **Ventaja principal** | Permite volver atrás paso a paso, deshaciendo primero lo último que se hizo. | Es justa: respeta el orden de llegada y nadie se adelanta. |
 
-![Pila vs cola](pila_vs_cola.svg)
-
 ## 4.2. Principio de funcionamiento
 
 La pila funciona como una pila de platos: el último plato que ponemos encima es el primero que sacamos. Por eso se dice que es LIFO.
