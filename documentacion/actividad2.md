@@ -1,9 +1,4 @@
 # Actividad 2. Cola FIFO (First In, First Out)
-
-**Responsable:** Luis Cristofer Siñani Yauri  
-**Curso:** Algoritmo y Estructura de Datos Basados en Inteligencia Artificial  
-**Sección / Grupo:** Equipo 6  
-
 ---
 
 ## 1. Caracterización de una Estructura FIFO
