@@ -1,6 +1,6 @@
 # ACTIVIDAD 1: PILA LIFO
 
-**Integrante:** Milthom Wilbert Florez Somcco
+
 
 ## 1. Descripción de la estructura Pila LIFO
 
