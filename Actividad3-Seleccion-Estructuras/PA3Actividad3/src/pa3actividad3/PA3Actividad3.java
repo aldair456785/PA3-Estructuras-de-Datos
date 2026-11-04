@@ -8,6 +8,7 @@ package pa3actividad3;
  *
  * @author Ana
  */
+
 public class PA3Actividad3 {
 
     // Nodo: almacena un dato y el enlace al siguiente
@@ -156,9 +157,9 @@ public class PA3Actividad3 {
 
         Pila pila1 = new Pila();
 
-        pila1.registrarAccion("Modificar titulo");
-        pila1.registrarAccion("Eliminar parrafo");
-        pila1.registrarAccion("Cambiar formato");
+        pila1.registrarAccion("Registrar solicitud de matricula");
+        pila1.registrarAccion("Modificar datos de la solicitud");
+        pila1.registrarAccion("Actualizar estado de la solicitud");
 
         pila1.mostrar();
         pila1.deshacerAccion();
