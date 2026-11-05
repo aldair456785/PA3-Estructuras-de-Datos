@@ -1,103 +1,111 @@
 # ACTIVIDAD 1: PILA LIFO
 
+## 1. Descripción
 
+Una pila es una estructura de datos que trabaja bajo el principio **LIFO (Last In, First Out)**, que significa que el último elemento en ingresar es el primero en salir.
 
-## 1. Descripción de la estructura Pila LIFO
-
-Una pila LIFO (Last In, First Out) es una estructura de datos que funciona bajo el principio de último en entrar, primero en salir.
-
-Esto significa que el último elemento agregado a la pila será el primero en retirarse.
-
-Un ejemplo de la vida cotidiana es una pila de platos: el último plato colocado encima es el primero que se retira.
+En esta actividad se utiliza una pila para representar la gestión de solicitudes académicas, permitiendo agregar nuevas solicitudes y retirar primero la que se encuentra en el tope.
 
 ## 2. Objetivo
 
-Comprender e implementar la estructura de datos Pila LIFO mediante el lenguaje Java, utilizando sus operaciones principales para gestionar solicitudes académicas.
+Comprender el funcionamiento de una pila LIFO mediante sus operaciones principales y desarrollar un programa en Java que permita registrar, consultar y retirar solicitudes, comprobando que el último elemento ingresado es el primero en salir.
 
-## 3. Características principales
+## 3. Características de la pila LIFO
 
-- Los elementos se agregan y retiran desde la parte superior.
-- Sigue el principio LIFO.
-- El último elemento ingresado es el primero en salir.
-- Permite organizar información de manera ordenada.
+- **Último en entrar, primero en salir:** el elemento más reciente es el primero que se retira.
+- **Tope:** es la posición donde se agregan y retiran los elementos.
+- **Acceso:** las operaciones principales se realizan desde el tope.
+- **Orden:** los elementos se retiran en orden inverso al que fueron ingresados.
 
 ## 4. Operaciones principales
 
 | Operación | Descripción |
 |---|---|
-| Push | Agrega un elemento al tope de la pila. |
-| Pop | Retira el elemento que está en el tope. |
-| Peek | Muestra el elemento que está en el tope sin retirarlo. |
-| isEmpty | Comprueba si la pila está vacía. |
+| Push | Agrega un nuevo elemento en el tope de la pila. |
+| Pop | Retira el elemento que se encuentra en el tope. |
+| Peek | Permite consultar el elemento del tope sin retirarlo. |
+| isEmpty | Verifica si la pila está vacía. |
 
 ## 5. Representación gráfica
 
-Ejemplo de una pila con tres solicitudes:
+La pila se representa con tres solicitudes. La solicitud `#003` se encuentra en el tope porque fue la última en ingresar, por lo tanto, será la primera en salir.
 
 ```text
           TOPE
-      +-------------+
-      | Solicitud 003 | ← Último en entrar
-      +-------------+
-      | Solicitud 002 |
-      +-------------+
-      | Solicitud 001 | ← Primero en entrar
-      +-------------+
-          BASE
+       ┌──────────────┐
+       │ Solicitud #003│  ← Último en entrar
+       ├──────────────┤
+       │ Solicitud #002│
+       ├──────────────┤
+       │ Solicitud #001│  ← Primero en entrar
+       └──────────────┘
 ```
 
-Cuando se realiza la operación Pop, primero se retira la Solicitud 003, después la Solicitud 002 y finalmente la Solicitud 001.
+**Principio LIFO:** el último elemento ingresado es el primero en retirarse.
 
-## 6. Pseudocódigo de las operaciones
+## 6. Pseudocódigo
 
-### Apilar (Push)
+### 6.1. Apilar (Push)
 
 ```text
-Algoritmo Apilar
-    Escribir "Ingrese una solicitud"
-    Leer solicitud
-    Insertar solicitud en el tope de la pila
-    Escribir "Solicitud agregada correctamente"
-FinAlgoritmo
+Apilar(Pila, Elemento):
+    Agregar Elemento en el tope de la Pila
 ```
 
-### Desapilar (Pop)
+### 6.2. Desapilar (Pop)
 
 ```text
-Algoritmo Desapilar
-    Si Pila no esta vacia Entonces
-        Retirar elemento del tope
-        Escribir "Solicitud retirada correctamente"
-    SiNo
-        Escribir "La pila esta vacia"
-    FinSi
-FinAlgoritmo
+Desapilar(Pila):
+    Si la Pila está vacía:
+        Mostrar "La pila está vacía"
+    Si no:
+        Retirar y devolver el elemento del tope
 ```
 
-### Visualizar el tope (Peek)
+### 6.3. Visualizar el tope (Peek)
 
 ```text
-Algoritmo VisualizarTope
-    Si Pila no esta vacia Entonces
-        Escribir elemento del tope
-    SiNo
-        Escribir "La pila esta vacia"
-    FinSi
-FinAlgoritmo
+VisualizarTope(Pila):
+    Si la Pila está vacía:
+        Mostrar "La pila está vacía"
+    Si no:
+        Mostrar el elemento que está en el tope
+```
+
+### 6.4. Verificar si está vacía (isEmpty)
+
+```text
+VerificarPila(Pila):
+    Si la Pila está vacía:
+        Mostrar "La pila está vacía"
+    Si no:
+        Mostrar "La pila contiene elementos"
 ```
 
 ## 7. Implementación en Java
 
-La estructura se implementa utilizando la clase Stack de Java. El programa permite agregar, retirar y visualizar solicitudes, además de comprobar si la pila está vacía y mostrar su representación gráfica.
+Para desarrollar esta actividad se utilizó el lenguaje Java y la clase `Stack`, que permite trabajar con una estructura de datos tipo pila.
 
-Archivo del programa: `PilaLIFO.java`.
+El programa se encuentra en el archivo `PilaLIFO.java` y cuenta con un menú interactivo que permite realizar las siguientes operaciones:
+
+1. Apilar una nueva solicitud.
+2. Desapilar una solicitud.
+3. Visualizar el elemento del tope.
+4. Verificar si la pila está vacía.
+5. Mostrar las solicitudes pendientes.
+6. Mostrar la representación gráfica de la pila.
+7. Salir del programa.
+
+Al iniciar, el programa registra tres solicitudes: `#001`, `#002` y `#003`. Posteriormente, permite agregar nuevas solicitudes y retirarlas siguiendo el principio LIFO.
+
+La implementación demuestra el funcionamiento de una pila mediante solicitudes académicas de ejemplo. Aunque el caso plantea deshacer acciones en orden inverso, el programa no revierte cambios reales de un sistema académico; permite comprobar el principio LIFO mediante las operaciones de apilamiento y desapilamiento.
 
 ## 8. Conclusión
 
-La estructura de datos Pila LIFO permite gestionar elementos siguiendo el orden de último en entrar y primero en salir. Mediante esta actividad se comprendió el funcionamiento de las operaciones Push, Pop, Peek e isEmpty y su aplicación en la gestión de solicitudes académicas.
+Mediante esta actividad se comprendió cómo funciona una pila LIFO y cómo sus operaciones Push, Pop, Peek e isEmpty permiten agregar, retirar y consultar elementos desde el tope. La ejecución del programa en Java permitió comprobar que el último elemento ingresado es el primero en retirarse. Esta estructura resulta útil para gestionar un historial de acciones cuando se necesita deshacer primero el cambio más reciente.
 
-## 9. Evidencia
+## 9. Evidencia de ejecución
 
-Se presenta la captura de pantalla del programa Java ejecutándose y demostrando las operaciones de la pila.
+La siguiente imagen muestra la ejecución del programa desarrollado en Java y permite comprobar el funcionamiento de las operaciones de la pila.
 
-**Archivo:** `evidencias/actividad1.png`
+**Archivo de evidencia:** `evidencias/actividad1.png`
