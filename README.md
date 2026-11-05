@@ -1,19 +1,19 @@
 # README — Evaluación PA3
 
-**Curso:** Algoritmo y Estructura de Datos Basados en Inteligencia Artificial  
+**Curso:** ALGORITMO Y ESTRUCTURA DE DATOS BASADOS EN INTELIGENCIA ARTIFICIAL  
 **Código:** 30710  
 **NRC:** 2014  
-**Evaluación:** Proceso de Aprendizaje 3  
+**Evaluación:** PROCESO DE APRENDIZAJE 3  
 **Equipo:** 6  
-**Docente:** Espinoza Bravo Wilder Julio
+**Docente:** ESPINOZA BRAVO WILDER JULIO
 
 ## 1. Integrantes
 
 | **Integrante** | **Responsabilidad principal** | **Aporte realizado** |
 |---|---|---|
-| Geraldine Ana Paola Gómez Atanacio | Actividad 3 – Situaciones 1 y 2 | Desarrolló la selección y justificación de las estructuras pila y cola para las dos primeras situaciones, incluyendo su comprobación en Java. |
+| Geraldine Ana Paola Gomez Atanacio | Actividad 3 – Situaciones 1 y 2 | Desarrolló la selección y justificación de las estructuras pila y cola para las dos primeras situaciones, incluyendo su comprobación en Java. |
 | Luisanni Andreina Oviedo Woscichowski | Actividad 4 – Comparación de estructuras | Desarrolló la comparación entre las estructuras pila y cola y su demostración mediante Java. |
-| Milthom Wilbert Flórez Somcco | Actividad 1 – Pila LIFO | Desarrolló los fundamentos, la representación y las operaciones principales de la estructura pila. |
+| Milthom Wilbert Florez Somcco | Actividad 1 – Pila LIFO | Desarrolló los fundamentos, la representación y las operaciones principales de la estructura pila. |
 | Carlos César Jiménez Jáuregui | Actividad 3 – Situaciones 3 y 4 | Desarrolló el análisis y la justificación de las estructuras de datos para las dos situaciones asignadas. |
 | Luis Cristofer Siñani Yauri | Actividad 2 – Cola FIFO | Desarrolló los fundamentos, la representación y las operaciones principales de la estructura cola. |
 
@@ -35,13 +35,13 @@ Se plantea una solución basada en las estructuras pila y cola. Se consideran su
 
 Se desarrolla el funcionamiento de una estructura LIFO (*Last In, First Out*), donde el último elemento que ingresa es el primero en salir. Se presenta su representación gráfica y las operaciones de apilar, desapilar, visualizar el tope y verificar si la pila está vacía.
 
-**Documentación complementaria:** [Ver Actividad 1](documentacion/actividad%201.md)
+**Documentación complementaria:** [Ver Actividad 1](documentacion/actividad1.md)
 
 ### Actividad 2. Cola FIFO
 
 Se desarrolla el funcionamiento de una estructura FIFO (*First In, First Out*), donde el primer elemento que ingresa es el primero en salir. Se presenta su representación gráfica y las operaciones de encolar, desencolar, visualizar el frente y verificar si la cola está vacía.
 
-**Documentación complementaria:** [Ver Actividad 2](documentacion/actividad%202.md)
+**Documentación complementaria:** [Ver Actividad 2](documentacion/actividad2.md)
 
 ### Actividad 3. Selección de estructuras para situaciones reales
 
@@ -54,13 +54,13 @@ Se analizan cuatro situaciones para determinar si corresponde utilizar una pila 
 
 Se justifica técnicamente la elección de cada estructura según el orden de procesamiento requerido. También se incluyen demostraciones en Java para las situaciones desarrolladas.
 
-**Documentación complementaria:** [Ver Actividad 3](documentacion/actividad%203.md)
+**Documentación complementaria:** [Ver Actividad 3](documentacion/actividad3.md)
 
 ### Actividad 4. Comparación y argumentación
 
 Se realiza una comparación académica entre las estructuras pila y cola, considerando sus principios de funcionamiento, operaciones principales, forma de acceso y ventajas en diferentes contextos de aplicación. Se complementa con una demostración en Java para observar las diferencias entre LIFO y FIFO.
 
-**Documentación complementaria:** [Ver Actividad 4](documentacion/actividad%204.md)
+**Documentación complementaria:** [Ver Actividad 4](documentacion/actividad4.md)
 
 ## 3. Cómo ejecutar o revisar
 
@@ -90,27 +90,28 @@ Se realiza una comparación académica entre las estructuras pila y cola, consid
 
 ## 4. Evidencias
 
-En esta sección se presentan las capturas de pantalla que permiten observar el desarrollo, la ejecución y los resultados de las actividades.
+En esta sección se presentan las capturas de pantalla que permiten verificar el desarrollo y la ejecución de las actividades.
 
 - [Actividad 1 – Pila LIFO](evidencias/actividad1.png)
-- [Actividad 2 – Cola FIFO](evidencias/actividad2.png)
-- [Actividad 3 – Situaciones 1 y 2](evidencias/actividad3_parte1.png)
-- [Actividad 3 – Situaciones 3 y 4](evidencias/actividad3_parte2.png)
+- [Actividad 2 – Cola FIFO](evidencias/actividad2.PNG)
+- [Actividad 3 – Situación 1](evidencias/actividad3_1.png)
+- [Actividad 3 – Situación 2](evidencias/actividad3_2.png)
+- [Actividad 3 – Situaciones 3 y 4](evidencias/actividad3_3.png)
 - [Actividad 4 – Comparación de estructuras](evidencias/actividad4.png)
 
-Las evidencias se encuentran organizadas en la carpeta `evidencias` del repositorio.
+Las evidencias están organizadas en la carpeta `evidencias` del repositorio.
 
 ## 5. Matriz de participación
 
-La siguiente matriz resume los aportes realizados por cada integrante en el desarrollo de la evaluación.
+La siguiente matriz resume el nivel de participación y los aportes realizados por cada integrante durante el desarrollo de la evaluación.
 
-| **Integrante** | **Actividad desarrollada** | **Aporte documentado** |
-|---|---|---|
-| Geraldine Ana Paola Gómez Atanacio | Actividad 3 – Situaciones 1 y 2 | Análisis, justificación y comprobación en Java de las estructuras seleccionadas. |
-| Luisanni Andreina Oviedo Woscichowski | Actividad 4 | Comparación, argumentación y demostración de pila y cola. |
-| Milthom Wilbert Flórez Somcco | Actividad 1 | Fundamentos, algoritmos y ejecución de la pila LIFO. |
-| Carlos César Jiménez Jáuregui | Actividad 3 – Situaciones 3 y 4 | Análisis y justificación de las estructuras para ambas situaciones. |
-| Luis Cristofer Siñani Yauri | Actividad 2 | Fundamentos, algoritmos y ejecución de la cola FIFO. |
+| **Integrante** | **Desarrollo** | **Pruebas** | **Documentación** | **Exposición** | **Evidencia de participación** |
+|---|---|---|---|---|---|
+| Geraldine Ana Paola Gomez Atanacio | Alta | Alta | Alta | Alta | Desarrollo de las situaciones 1 y 2 de la Actividad 3, justificación e implementación en Java. |
+| Luisanni Andreina Oviedo Woscichowski | Alta | Alta | Alta | Alta | Desarrollo de la comparación entre pila y cola y demostración en Java. |
+| Milthom Wilbert Florez Somcco | Alta | Alta | Alta | Alta | Desarrollo de los fundamentos, algoritmos y ejecución de la Actividad 1: Pila LIFO. |
+| Carlos César Jiménez Jáuregui | Alta | Alta | Alta | Alta | Desarrollo y justificación de las situaciones 3 y 4 de la Actividad 3. |
+| Luis Cristofer Siñani Yauri | Alta | Alta | Alta | Alta | Desarrollo de los fundamentos, algoritmos y ejecución de la Actividad 2: Cola FIFO. |
 
 ## 6. Video de exposición
 
