@@ -182,6 +182,6 @@ Accion procesada: Registrar matricula
 
 
 
-**Conclusión:**
+### Conclusión:
 
 La selección de la estructura depende de cómo debe procesarse la información. Para revertir cambios utilizamos una pila, porque necesitamos recuperar primero la acción más reciente. En cambio, para atender solicitudes utilizamos una cola, porque debemos respetar el orden en que llegan los estudiantes. Ambas estructuras permiten organizar la información, pero cada una responde a una necesidad diferente del sistema académico.
