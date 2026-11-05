@@ -1,19 +1,21 @@
 # README — Evaluación PA3
 
-> **Curso:** ALGORITMO Y ESTRUCTURA DE DATOS BASADOS EN INTELIGENCIA ARTIFICIAL  
-> **Código:** 30710  
-> **Evaluación:** PROCESO DE APRENDIZAJE 3 
-> **Equipo:** Equipo 6
+**Curso:** Algoritmo y Estructura de Datos Basados en Inteligencia Artificial  
+**Código:** 30710  
+**NRC:** 2014  
+**Evaluación:** Proceso de Aprendizaje 3  
+**Equipo:** 6  
+**Docente:** Espinoza Bravo Wilder Julio
 
 ## 1. Integrantes
 
 | **Integrante** | **Responsabilidad principal** | **Aporte realizado** |
 |---|---|---|
-| Geraldine Ana Paola Gomez Atanacio | Actividad 3 – Situaciones 1 y 2 | Desarrolló la selección y justificación de las estructuras pila y cola para las dos primeras situaciones, incluyendo su implementación en Java. |
+| Geraldine Ana Paola Gómez Atanacio | Actividad 3 – Situaciones 1 y 2 | Desarrolló la selección y justificación de las estructuras pila y cola para las dos primeras situaciones, incluyendo su comprobación en Java. |
 | Luisanni Andreina Oviedo Woscichowski | Actividad 4 – Comparación de estructuras | Desarrolló la comparación entre las estructuras pila y cola y su demostración mediante Java. |
-| Milthom Wilbert Florez Somcco | Actividad 1 – Pila LIFO | Responsable del desarrollo de los fundamentos, representación y operaciones de la estructura pila. |
-| Carlos César Jiménez Jáuregui | Actividad 3 – Situaciones 3 y 4 | Responsable del análisis y justificación de las estructuras de datos para las dos situaciones asignadas. |
-| Luis Cristofer Siñani Yauri | Actividad 2 – Cola FIFO | Responsable del desarrollo de los fundamentos, representación y operaciones de la estructura cola. |
+| Milthom Wilbert Flórez Somcco | Actividad 1 – Pila LIFO | Desarrolló los fundamentos, la representación y las operaciones principales de la estructura pila. |
+| Carlos César Jiménez Jáuregui | Actividad 3 – Situaciones 3 y 4 | Desarrolló el análisis y la justificación de las estructuras de datos para las dos situaciones asignadas. |
+| Luis Cristofer Siñani Yauri | Actividad 2 – Cola FIFO | Desarrolló los fundamentos, la representación y las operaciones principales de la estructura cola. |
 
 ## 2. Descripción y objetivo
 
@@ -31,13 +33,13 @@ Se plantea una solución basada en las estructuras pila y cola. Se consideran su
 
 ### Actividad 1. Pila LIFO
 
-Se desarrolla el funcionamiento de una estructura LIFO (Last In, First Out), donde el último elemento que ingresa es el primero en salir. Se considera su representación gráfica y las operaciones de apilar, desapilar, visualizar el tope y verificar si la pila está vacía.
+Se desarrolla el funcionamiento de una estructura LIFO (*Last In, First Out*), donde el último elemento que ingresa es el primero en salir. Se presenta su representación gráfica y las operaciones de apilar, desapilar, visualizar el tope y verificar si la pila está vacía.
 
 **Documentación complementaria:** [Ver Actividad 1](documentacion/actividad%201.md)
 
 ### Actividad 2. Cola FIFO
 
-Se desarrolla el funcionamiento de una estructura FIFO (First In, First Out), donde el primer elemento que ingresa es el primero en salir. Se considera su representación gráfica y las operaciones de encolar, desencolar, visualizar el frente y verificar si la cola está vacía.
+Se desarrolla el funcionamiento de una estructura FIFO (*First In, First Out*), donde el primer elemento que ingresa es el primero en salir. Se presenta su representación gráfica y las operaciones de encolar, desencolar, visualizar el frente y verificar si la cola está vacía.
 
 **Documentación complementaria:** [Ver Actividad 2](documentacion/actividad%202.md)
 
@@ -65,7 +67,7 @@ Se realiza una comparación académica entre las estructuras pila y cola, consid
 ### Requisitos previos
 
 - Apache NetBeans.
-- JDK compatible con la configuración del proyecto.
+- JDK compatible con la configuración de los proyectos.
 - Git, si se desea clonar el repositorio desde la terminal.
 
 ### Pasos para revisar el proyecto
@@ -76,63 +78,75 @@ Se realiza una comparación académica entre las estructuras pila y cola, consid
    git clone https://github.com/aldair456785/PA3-Estructuras-de-Datos.git
    ```
 
-2. **Abrir el proyecto:** iniciar Apache NetBeans, seleccionar `File > Open Project` y buscar la carpeta del repositorio.
+2. **Abrir NetBeans:** iniciar Apache NetBeans y seleccionar `File > Open Project`.
 
-3. **Seleccionar la actividad:** abrir el proyecto Java correspondiente dentro de la carpeta de cada actividad.
+3. **Seleccionar la actividad:** buscar la carpeta del repositorio y abrir el proyecto Java correspondiente a cada actividad.
 
-4. **Revisar el código:** comprobar los archivos Java y la documentación complementaria.
+4. **Revisar el código:** ingresar a los archivos fuente para consultar los algoritmos y las operaciones implementadas.
 
-5. **Ejecutar las actividades:** abrir la clase principal correspondiente y ejecutarla para comprobar los resultados en la consola.
+5. **Ejecutar el programa:** abrir la clase principal de cada proyecto y utilizar la opción `Run` para comprobar su funcionamiento en la consola.
 
-**Nota:** La carpeta principal del repositorio contiene las actividades organizadas por separado. Los proyectos Java deben abrirse desde sus respectivas carpetas.
+**Nota:** Las actividades están organizadas por separado. Cada proyecto Java debe abrirse desde su respectiva carpeta en NetBeans.
 
 ## 4. Evidencias
 
-En esta sección se presentan las capturas de pantalla que evidencian el desarrollo, la ejecución y los resultados de las actividades.
+En esta sección se presentan las capturas de pantalla que permiten observar el desarrollo, la ejecución y los resultados de las actividades.
 
-- [Actividad 1](evidencias/actividad1.png)
-- [Actividad 2](evidencias/actividad2.png)
+- [Actividad 1 – Pila LIFO](evidencias/actividad1.png)
+- [Actividad 2 – Cola FIFO](evidencias/actividad2.png)
 - [Actividad 3 – Situaciones 1 y 2](evidencias/actividad3_parte1.png)
 - [Actividad 3 – Situaciones 3 y 4](evidencias/actividad3_parte2.png)
-- [Actividad 4](evidencias/actividad4.png)
+- [Actividad 4 – Comparación de estructuras](evidencias/actividad4.png)
 
-Las evidencias se organizarán en la carpeta `evidencias` del repositorio.
+Las evidencias se encuentran organizadas en la carpeta `evidencias` del repositorio.
 
 ## 5. Matriz de participación
 
-| **Integrante** | **Desarrollo** | **Pruebas** | **Documentación** | **Exposición** | **Evidencia de participación** |
-|---|---|---|---|---|---|
-| Geraldine Ana Paola Gomez Atanacio | Alta | Alta | Alta | Pendiente | Desarrollo de las situaciones 1 y 2 de la Actividad 3, implementación en Java y aporte al repositorio. |
-| Luisanni Andreina Oviedo Woscichowski | Alta | Alta | Alta | Pendiente | Desarrollo de la comparación entre pila y cola y demostración en Java. |
-| Milthom Wilbert Fl0rez Somcco | Pendiente | Pendiente | Pendiente | Pendiente | Responsable del desarrollo de la Actividad 1: Pila LIFO. |
-| Carlos César Jiménez Jáuregui | Pendiente | Pendiente | Pendiente | Pendiente | Responsable del desarrollo de las situaciones 3 y 4 de la Actividad 3. |
-| Luis Cristofer Siñani Yauri | Pendiente | Pendiente | Pendiente | Pendiente | Responsable del desarrollo de la Actividad 2: Cola FIFO. |
+La siguiente matriz resume los aportes realizados por cada integrante en el desarrollo de la evaluación.
+
+| **Integrante** | **Actividad desarrollada** | **Aporte documentado** |
+|---|---|---|
+| Geraldine Ana Paola Gómez Atanacio | Actividad 3 – Situaciones 1 y 2 | Análisis, justificación y comprobación en Java de las estructuras seleccionadas. |
+| Luisanni Andreina Oviedo Woscichowski | Actividad 4 | Comparación, argumentación y demostración de pila y cola. |
+| Milthom Wilbert Flórez Somcco | Actividad 1 | Fundamentos, algoritmos y ejecución de la pila LIFO. |
+| Carlos César Jiménez Jáuregui | Actividad 3 – Situaciones 3 y 4 | Análisis y justificación de las estructuras para ambas situaciones. |
+| Luis Cristofer Siñani Yauri | Actividad 2 | Fundamentos, algoritmos y ejecución de la cola FIFO. |
 
 ## 6. Video de exposición
 
-**Video de YouTube:** [ENLACE DEL VIDEO](PENDIENTE_DE_ENLACE)
+**Video de YouTube:** [[Agregar enlace del video cuando esté publicado](PENDIENTE_DE_ENLACE](https://www.youtube.com/watch?v=NYTra19Gv4M))
 
 **Contenido del video:**
 
-- Presentación del equipo (todos con cámaras prendidas).
-- Explicación de cómo se resolvió cada actividad.
-- Demostración de ejecución de los programas.
-- Justificación de las estructuras de datos seleccionadas.
-- Conclusiones del trabajo.
+- Presentación de los integrantes del equipo, con las cámaras encendidas.
+- Explicación del caso planteado y de la solución desarrollada.
+- Desarrollo de las cuatro actividades.
+- Demostración de la ejecución de los programas en Java.
+- Justificación de la selección de las estructuras de datos.
+- Presentación de las conclusiones del trabajo.
 
 ## 7. Conclusiones
 
-**Conclusión 1:**
+**Conclusión 1 – Actividad 1: Pila LIFO**
 
-**Conclusión 2:** 
+El desarrollo de la pila permitió comprender cómo funcionan las operaciones `push`, `pop` y `peek`. Mediante la ejecución en Java se comprobó que el último elemento agregado es el primero en retirarse. Esta estructura resulta adecuada para gestionar un historial de acciones cuando se necesita deshacer primero el cambio más reciente.
 
-**Conclusión 3:** 
+**Conclusión 2 – Actividad 2: Cola FIFO**
 
-**Conclusión 4:** 
+La implementación de la cola permitió comprobar que los elementos se agregan al final y se retiran desde el frente. De esta manera, las solicitudes académicas pueden atenderse respetando su orden de llegada, evitando que los trámites nuevos pasen delante de los anteriores.
 
-**Conclusión 5:** 
+**Conclusión 3 – Actividad 3: Situaciones 1 y 2**
+
+El análisis de las dos primeras situaciones permitió identificar que no todos los procesos requieren la misma estructura. Para revertir acciones se utiliza una pila, mientras que para atender solicitudes según su llegada se utiliza una cola. La elección depende del orden en que deben procesarse los elementos.
+
+**Conclusión 4 – Actividad 3: Situaciones 3 y 4**
+
+Las situaciones analizadas confirmaron que la pila es apropiada cuando se necesita procesar primero el último elemento ingresado, mientras que la cola permite mantener el orden de llegada de los trámites pendientes. Aplicar correctamente estos principios ayuda a organizar los procesos y evitar alteraciones en su secuencia.
+
+**Conclusión 5 – Actividad 4: Comparación y argumentación**
+
+La comparación permitió reconocer que las pilas y las colas tienen operaciones de inserción y eliminación, pero se diferencian en la forma de acceder a los elementos. La pila trabaja desde el tope y la cola utiliza el frente y el final. Por ello, seleccionar la estructura de acuerdo con las necesidades del problema permite desarrollar soluciones más ordenadas y adecuadas.
 
 ---
 
-**Última actualización:** 03/11/2026
-
+**Última actualización:** 04/11/2026
