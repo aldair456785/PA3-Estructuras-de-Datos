@@ -114,7 +114,7 @@ La siguiente matriz resume los aportes realizados por cada integrante en el desa
 
 ## 6. Video de exposición
 
-**Video de YouTube:** [[Agregar enlace del video cuando esté publicado](PENDIENTE_DE_ENLACE](https://www.youtube.com/watch?v=NYTra19Gv4M))
+**Video de YouTube:** [Ver video de exposición](https://www.youtube.com/watch?v=NYTra19Gv4M)
 
 **Contenido del video:**
 
